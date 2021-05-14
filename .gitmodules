@@ -1,0 +1,55 @@
+[submodule "aircrack-ng-custom/src"]
+	path = aircrack-ng-custom/src
+	url = https://github.com/aircrack-ng/aircrack-ng
+
+[submodule "dns2proxy/src"]
+        path = dns2proxy/src
+        url = https://github.com/LeonardoNve/dns2proxy
+
+[submodule "hcxdumptool/src"]
+        path = hcxdumptool/src
+        url = https://github.com/ZerBea/hcxdumptool
+
+[submodule "hcxtools/src"]
+        path = hcxtools/src
+        url = https://github.com/ZerBea/hcxtools
+
+[submodule "hcxlabtools/src"]
+        path = hcxlabtools/src
+        url = https://github.com/ZerBea/wifi_laboratory
+
+[submodule "hostapd-mana/src"]
+        path = hostapd-mana/src
+        url = https://github.com/adde88/hostapd-mana
+
+[submodule "mdk3/src"]
+        path = mdk3/src
+        url = https://github.com/aircrack-ng/mdk3
+
+[submodule "mdk4/src"]
+        path = mdk4/src
+        url = https://github.com/aircrack-ng/mdk4
+
+[submodule "ngrep/src"]
+        path = ngrep/src
+        url = https://github.com/jpr5/ngrep
+
+[submodule "pixelsrv-tls/src"]
+        path = pixelsrv-tls/src
+        url = https://github.com/kvic-z/pixelserv-tls
+
+[submodule "pixiewps-custom/src"]
+        path = pixiewps-custom/src
+        url = https://github.com/wiire-a/pixiewps
+
+[submodule "reaver-custom/src"]
+        path = reaver-custom/src
+        url = https://github.com/t6x/reaver-wps-fork-t6x
+
+[submodule "sslsplit/src"]
+        path = sslsplit/src
+        url = https://github.com/droe/sslsplit
+
+[submodule "sslstrip-hsts/src"]
+        path = sslstrip-hsts/src
+        url = https://github.com/byt3bl33d3r/sslstrip2

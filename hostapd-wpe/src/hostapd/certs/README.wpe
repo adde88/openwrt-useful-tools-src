@@ -1,0 +1,13 @@
+# Certificate creation for Hostapd-WPE #
+########################################
+
+Usage:
+
+make clean
+./bootstrap
+make install
+
+Notes:
+- Windows 10 (and possibly any Windows starting from Vista) will fail EAP
+   if certificates signed with MD5 are used. 
+- Generated certificates used a SHA256 signature.

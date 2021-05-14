@@ -1,0 +1,39 @@
+config WPE_RFKILL_SUPPORT
+	bool "Add rfkill support"
+	depends on PACKAGE_wpa-supplicant || \
+		PACKAGE_wpa-supplicant-mini || \
+		PACKAGE_wpad || \
+		PACKAGE_wpad-mini
+	default n
+
+config WPE_MSG_MIN_PRIORITY
+	int "Minimum debug message priority"
+	default 2
+	help
+	  Useful values are:
+	    0 = all messages
+		1 = raw message dumps
+		2 = most debugging messages
+		3 = info messages
+		4 = warnings
+		5 = errors
+
+config WPE_WEXT_SUPPORT
+	bool
+	default y
+
+config WPE_11N_SUPPORT
+        bool
+        default y
+
+config WPE_11AC_SUPPORT
+        bool
+        default y
+
+config WPE_11W_SUPPORT
+        bool
+        default y
+
+config WPE_TAXONOMY_SUPPORT
+        bool
+        default y
