@@ -1,14 +1,14 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=bettercap
-PKG_VERSION:=2.31.0
-PKG_RELEASE:=2
+PKG_VERSION:=2.32.0
+PKG_RELEASE:=1
 
 GO_PKG:=github.com/bettercap/bettercap
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/bettercap/bettercap/tar.gz/v${PKG_VERSION}?
-PKG_HASH:=0ca3b7f623ee60d6a0fa2e3016b9eee1add2dde926f7c72c010bec5f5fbe15c4
+PKG_HASH:=ea28d4d533776a328a54723a74101d1720016ffe7d434bf1d7ab222adb397ac6
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 
 PKG_LICENSE:=GPL-3.0
